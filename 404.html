@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Página no encontrada — ScamLock</title>
+  <link rel="icon" type="image/svg+xml" href="./favicon.svg">
+  <link rel="stylesheet" href="./app.css?v=20261005-cyber-red-v3">
+  <!-- GitHub Pages SPA Redirect Script -->
+  <script>
+    (function() {
+      var path = window.location.pathname.toLowerCase().replace(/\/+$/, '');
+      if (path.endsWith('privacy-policy') || path.endsWith('privacidad')) {
+        window.location.replace('./privacy-policy');
+      } else if (path.endsWith('terms-of-use') || path.endsWith('terms') || path.endsWith('terminos')) {
+        window.location.replace('./terms-of-use');
+      }
+    })();
+  </script>
+</head>
+<body style="min-height: 100vh; display: flex; align-items: center; justify-content: center; text-align: center; padding: 24px;">
+  <div style="max-width: 500px; background: var(--bg-surface); border: 1px solid rgba(239, 68, 68, 0.25); border-radius: 16px; padding: 40px 28px;">
+    <h1 style="font-size: 32px; color: #ff2a4b; margin-bottom: 12px;">Página no encontrada</h1>
+    <p style="color: var(--text-secondary); margin-bottom: 24px;">El recurso solicitado no existe o ha sido reubicado.</p>
+    <div style="display: flex; flex-direction: column; gap: 10px;">
+      <a href="./#inicio" class="btn btn-primary">Volver al Inicio</a>
+      <a href="./privacy-policy" class="btn btn-secondary">Política de Privacidad</a>
+      <a href="./terms-of-use" class="btn btn-secondary">Términos de Uso</a>
+    </div>
+  </div>
+</body>
+</html>

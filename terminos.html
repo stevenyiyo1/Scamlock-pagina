@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  
+  <!-- Primary SEO Tags for Discord Developer Portal & Web Crawlers -->
+  <title>Términos de Uso | Terms of Service — ScamLock</title>
+  <meta name="title" content="Términos de Uso — ScamLock" />
+  <meta name="description" content="Términos de Uso del bot ScamLock: condiciones de operación, limitaciones de detección automatizada y responsabilidades del administrador." />
+  <meta name="robots" content="index, follow" />
+  <link rel="canonical" href="https://scamlock.io/terms-of-use" />
+  
+  <!-- Favicon -->
+  <link rel="icon" type="image/svg+xml" href="./favicon.svg" />
+
+  <!-- Open Graph / Discord Embed Cards -->
+  <meta property="og:type" content="article" />
+  <meta property="og:url" content="https://scamlock.io/terms-of-use" />
+  <meta property="og:title" content="Términos de Uso — ScamLock" />
+  <meta property="og:description" content="Términos de Uso del bot ScamLock: condiciones de operación, limitaciones de detección automatizada y responsabilidades del administrador." />
+  <meta property="og:image" content="./images/hero-shield.jpg" />
+  <meta property="og:site_name" content="ScamLock" />
+
+  <!-- Google Fonts: Syne + Plus Jakarta Sans + JetBrains Mono -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600&family=Plus+Jakarta+Sans:wght@400;500;600;700&family=Syne:wght@600;700;800&display=swap" rel="stylesheet">
+
+  <!-- Main Cyber Theme Stylesheet -->
+  <link rel="stylesheet" href="./app.css?v=20261005-cyber-red-v3" />
+  <style>
+    .lang-section { display: block; }
+    .lang-section.hidden { display: none; }
+    .lang-btn-toggle {
+      background: rgba(19, 22, 32, 0.85);
+      border: 1px solid rgba(239, 68, 68, 0.3);
+      color: #f8fafc;
+      font-size: 13px;
+      font-weight: 600;
+      padding: 7px 14px;
+      border-radius: 6px;
+      cursor: pointer;
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      transition: all 0.2s ease;
+    }
+    .lang-btn-toggle:hover {
+      border-color: #ff2a4b;
+      box-shadow: 0 0 10px rgba(255, 42, 75, 0.35);
+    }
+    .top-back-btn {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      font-size: 14px;
+      font-weight: 600;
+      color: #ff4d6d;
+      margin-bottom: 24px;
+      transition: transform 0.15s ease;
+    }
+    .top-back-btn:hover {
+      transform: translateX(-3px);
+      color: #ffffff;
+    }
+  </style>
+</head>
+<body>
+  <!-- Header / Navbar -->
+  <header class="site-navbar">
+    <div class="container">
+      <a href="./#inicio" class="nav-brand" aria-label="ScamLock Home">
+        <svg class="nav-brand-icon" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M16 4L6 8.5V15.2C6 21.6 10.3 27.6 16 29C21.7 27.6 26 21.6 26 15.2V8.5L16 4Z" fill="#12131C" stroke="#EF4444" stroke-width="2.2" stroke-linejoin="round"/>
+          <path d="M12.5 16.5L15 19L20 13.5" stroke="#FF2A4B" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
+        <span>ScamLock</span>
+      </a>
+
+      <div class="nav-actions">
+        <button id="pageLangBtn" class="lang-btn-toggle" aria-label="Cambiar idioma entre Español e Inglés">
+          <span>🌐</span>
+          <span id="pageLangLabel">Cambiar a English</span>
+        </button>
+
+        <a href="https://discord.gg/G37UGXjKbW" target="_blank" rel="noopener noreferrer" class="btn btn-secondary btn-sm nav-btn-support">
+          <span>Soporte Discord ↗</span>
+        </a>
+
+        <a href="https://discord.com/oauth2/authorize?client_id=1502348097370718390&permissions=1101659236358&integration_type=0&scope=bot+applications.commands" target="_blank" rel="noopener noreferrer" class="btn btn-primary btn-sm nav-btn-add">
+          <span>Añadir Bot</span>
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <!-- Main Legal Document Content -->
+  <main style="padding: clamp(28px, 5vw, 48px) 0 64px 0;">
+    <div class="container">
+      <div class="legal-document">
+        <a href="./#inicio" class="top-back-btn">
+          ← <span id="backHomeLabel">Volver al sitio oficial</span>
+        </a>
+
+        <!-- Versión en Español -->
+        <div id="contentEs" class="lang-section">
+          <div class="legal-header">
+            <div class="section-kicker" style="color: var(--accent-red-light); font-size: 13px; font-weight: 700; text-transform: uppercase; margin-bottom: 8px;">
+              Marco Operativo y Responsabilidades
+            </div>
+            <h1>Términos de Uso</h1>
+            <div class="legal-meta">
+              <span>Última actualización: Octubre 2026</span>
+              <span>·</span>
+              <span>Versión 1.0 Oficial (Cumplimiento RGPD & CCPA)</span>
+            </div>
+            <p style="margin-top: 14px; font-size: 15px; color: var(--text-secondary);">
+              Documento oficial de términos y privacidad para el bot de Discord ScamLock. Accesible sin registro ni cookies.
+            </p>
+          </div>
+
+          <div class="legal-content">
+            
+    <article class="legal-section-block" id="aceptacion">
+      <h3>1. Aceptación de los Términos</h3>
+      <p>Al invitar, configurar o utilizar el bot ScamLock en tu servidor de Discord, o al acceder a este sitio web oficial, aceptas quedar vinculado por estos Términos de Uso y por nuestra Política de Privacidad. Si no estás de acuerdo con alguna de estas condiciones, no debes añadir ni utilizar ScamLock.</p>
+    </article>
+  
+    <article class="legal-section-block" id="descripcion-servicio">
+      <h3>2. Descripción del Servicio y Limitaciones de Detección</h3>
+      <p>ScamLock es una herramienta de asistencia a la moderación y ciberseguridad comunitaria diseñada para analizar patrones de texto, enlaces sospechosos e imágenes a fin de alertar o mitigar vectores de estafas y phishing.<br/><br/>⚠️ ADVERTENCIA CRÍTICA:<br/>Ningún sistema automatizado puede garantizar una protección del 100% contra estafas, ataques de ingeniería social o vulnerabilidades informáticas. ScamLock es una capa preventiva complementaria, NO un sustituto del criterio humano, la prudencia de los usuarios y la supervisión activa del equipo de moderación del servidor. No afirmamos ni garantizamos que ScamLock neutralizará la totalidad de las amenazas existentes o emergentes.</p>
+    </article>
+  
+    <article class="legal-section-block" id="responsabilidad-administrador">
+      <h3>3. Responsabilidad del Administrador del Servidor</h3>
+      <p>El propietario y los administradores del servidor son los únicos responsables de:<br/>• Configurar adecuadamente los umbrales de alerta y eliminación del bot según la tolerancia de su comunidad.<br/>• Asignar y supervisar los permisos de moderación otorgados a ScamLock dentro del servidor.<br/>• Atender las revisiones de falsos positivos y regular los canales de lista blanca cuando corresponda.<br/>• Informar a los miembros de su servidor de que las comunicaciones públicas están sujetas a análisis automatizado de seguridad conforme a las directrices de la plataforma.</p>
+    </article>
+  
+    <article class="legal-section-block" id="falsos-positivos">
+      <h3>4. Falsos Positivos y Apelaciones</h3>
+      <p>Dado que los algoritmos de detección heurística y aprendizaje automático analizan patrones contextuales, pueden producirse falsos positivos de manera ocasional.<br/><br/>• ScamLock proporciona el comando /scamlock perfil y canales dedicados en el Servidor Oficial de Soporte para que los usuarios afectados puedan solicitar la revisión y normalización de su estado de cuenta.<br/>• Los administradores del servidor pueden utilizar /scamlock whitelist para eximir dominios institucionales, canales específicos o roles legítimos que puedan generar coincidencias no deseadas.</p>
+    </article>
+  
+    <article class="legal-section-block" id="uso-prohibido">
+      <h3>5. Uso Indebido y Restricciones</h3>
+      <p>Queda estrictamente prohibido:<br/>• Utilizar ScamLock para hostigar, espiar o acosar a usuarios legítimos de Discord.<br/>• Intentar eludir, descompilar, saturar deliberadamente o realizar ataques de denegación de servicio (DoS) contra los servidores de ScamLock.<br/>• Emplear ScamLock para distribuir contenido ilegal, malware o infringir los Términos de Servicio de Discord.<br/>• Fingir ser miembro del equipo oficial de soporte o seguridad de ScamLock.</p>
+    </article>
+  
+    <article class="legal-section-block" id="disponibilidad">
+      <h3>6. Disponibilidad, Modificaciones y Suspensión</h3>
+      <p>ScamLock se proporciona «tal cual» («as is») y «según disponibilidad». No garantizamos que el servicio opere de manera ininterrumpida, libre de errores o que esté exento de caídas por mantenimiento técnico o incidentes en la red de Discord.<br/><br/>Nos reservamos el derecho de modificar, actualizar, restringir o suspender el acceso a ScamLock de forma temporal o definitiva ante abusos, violaciones a estos términos o requerimientos técnicos de la plataforma.</p>
+    </article>
+  
+    <article class="legal-section-block" id="desvinculacion-discord">
+      <h3>7. Relación Legal con Discord Inc.</h3>
+      <p>ScamLock es un software de desarrollo independiente creado por su propio equipo de desarrollo.<br/><br/>ScamLock NO es un producto oficial de Discord Inc., y NO está afiliado, patrocinado, respaldado ni asociado contractualmente con Discord Inc. El logotipo de Discord y la palabra "Discord" son marcas registradas propiedad exclusiva de Discord Inc.</p>
+    </article>
+  
+    <article class="legal-section-block" id="modificaciones-terminos">
+      <h3>8. Modificaciones a los Términos de Uso</h3>
+      <p>Podemos actualizar estos Términos de Uso periódicamente. La versión más reciente estará siempre publicada en este sitio web con su fecha de revisión correspondiente. El uso continuado del bot tras la entrada en vigor de los cambios constituye la aceptación plena de los mismos.</p>
+    </article>
+  
+          </div>
+        </div>
+
+        <!-- Versión en Inglés -->
+        <div id="contentEn" class="lang-section hidden">
+          <div class="legal-header">
+            <div class="section-kicker" style="color: var(--accent-red-light); font-size: 13px; font-weight: 700; text-transform: uppercase; margin-bottom: 8px;">
+              Operational Framework & Terms
+            </div>
+            <h1>Terms of Service</h1>
+            <div class="legal-meta">
+              <span>Last updated: October 2026</span>
+              <span>·</span>
+              <span>Official Version 1.0 (GDPR & CCPA Compliant)</span>
+            </div>
+            <p style="margin-top: 14px; font-size: 15px; color: var(--text-secondary);">
+              Official legal agreement and operational boundaries for the ScamLock Discord Bot. Publicly accessible with zero authentication or cookies.
+            </p>
+          </div>
+
+          <div class="legal-content">
+            
+    <article class="legal-section-block" id="aceptacion-en">
+      <h3>1. Acceptance of Terms</h3>
+      <p>By inviting, configuring, or operating the ScamLock bot within your Discord server, or by accessing this official website, you agree to be bound by these Terms of Use and our Privacy Policy. If you do not agree with any of these terms, you must not add or use ScamLock.</p>
+    </article>
+  
+    <article class="legal-section-block" id="descripcion-servicio-en">
+      <h3>2. Service Scope & Automated Detection Limitations</h3>
+      <p>ScamLock is a community security and moderation assistance tool built to analyze text patterns, suspicious links, and images to assist in flagging and mitigating scam and phishing vectors.<br/><br/>⚠️ CRITICAL DISCLAIMER:<br/>No automated detection software can guarantee 100% protection against scams, social engineering exploits, or cyber threats. ScamLock serves as an auxiliary defensive layer, NEVER as a complete replacement for human judgment, user prudence, or active moderator oversight. We do not warrant that ScamLock will catch or neutralize all existing or future threats.</p>
+    </article>
+  
+    <article class="legal-section-block" id="responsabilidad-administrador-en">
+      <h3>3. Server Administrator Responsibilities</h3>
+      <p>Server owners and administrators maintain sole responsibility for:<br/>• Properly calibrating alert and deletion thresholds according to their community standards.<br/>• Provisioning and supervising bot permission roles inside their guild.<br/>• Reviewing potential false positives and configuring whitelist exemptions where appropriate.<br/>• Informing server members that public communications are analyzed by automated security filters in accordance with platform policies.</p>
+    </article>
+  
+    <article class="legal-section-block" id="falsos-positivos-en">
+      <h3>4. False Positives & Appeal Process</h3>
+      <p>Because heuristic analyzers and machine-learning models evaluate contextual text and image signals, false positives may occasionally arise.<br/><br/>• ScamLock offers the /scamlock perfil command and dedicated support tickets in the Official Support Server where affected users can request an administrative review and status reset.<br/>• Server administrators are encouraged to use /scamlock whitelist to exempt verified organizational domains, test channels, or trusted roles.</p>
+    </article>
+  
+    <article class="legal-section-block" id="uso-prohibido-en">
+      <h3>5. Prohibited Misuse & Abuse</h3>
+      <p>You agree not to:<br/>• Misuse ScamLock to target, harass, or surveil legitimate Discord users.<br/>• Attempt to circumvent, reverse engineer, flood, or launch denial-of-service (DoS) attacks against ScamLock infrastructure.<br/>• Utilize ScamLock to distribute illegal content, propagate malware, or violate Discord Terms of Service.<br/>• Impersonate official ScamLock developers or authorized support staff.</p>
+    </article>
+  
+    <article class="legal-section-block" id="disponibilidad-en">
+      <h3>6. Service Availability & Modifications</h3>
+      <p>ScamLock is provided on an "as is" and "as available" basis without warranties of any kind. We do not warrant that bot availability will be uninterrupted, error-free, or resilient against Discord API network outages.<br/><br/>We reserve the right to modify, upgrade, throttle, or suspend bot access temporarily or permanently in cases of service abuse, terms violations, or maintenance demands.</p>
+    </article>
+  
+    <article class="legal-section-block" id="desvinculacion-discord-en">
+      <h3>7. Legal Relationship with Discord Inc.</h3>
+      <p>ScamLock is an independently built software application developed by its independent team.<br/><br/>ScamLock is NOT an official Discord Inc. product and is NOT affiliated with, sponsored by, endorsed by, or in partnership with Discord Inc. The Discord logo and the name "Discord" are registered trademarks of Discord Inc.</p>
+    </article>
+  
+    <article class="legal-section-block" id="modificaciones-terminos-en">
+      <h3>8. Changes to These Terms</h3>
+      <p>We may revise these Terms of Use periodically. The latest version will always be published on this website. Continued operation or presence of the bot in your server following updates constitutes acceptance of the modified terms.</p>
+    </article>
+  
+          </div>
+        </div>
+
+        <!-- Contact Box & Action Cards -->
+        <div style="margin-top: 48px; padding: 28px; background: var(--bg-surface); border: 1px solid rgba(239, 68, 68, 0.25); border-radius: 12px;">
+          <h3 style="font-size: 18px; margin-bottom: 10px; color: #ffffff;">Contacto Oficial / Official Contact</h3>
+          <p style="font-size: 14px; color: var(--text-secondary); margin-bottom: 16px;">
+            Para solicitudes de derechos ARCO, consultas técnicas o aclaraciones sobre estos términos:
+          </p>
+          <div style="display: flex; flex-wrap: wrap; gap: 14px; align-items: center;">
+            <a href="mailto:exclusive2149@gmail.com" style="font-family: var(--font-mono); color: var(--accent-red-bright); font-weight: 600; font-size: 14px;">
+              ✉️ exclusive2149@gmail.com
+            </a>
+            <span style="color: var(--text-muted);">·</span>
+            <a href="https://discord.gg/G37UGXjKbW" target="_blank" rel="noopener noreferrer" style="color: #ffffff; font-size: 14px;">
+              💬 Servidor Oficial de Soporte de Discord ↗
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-bottom">
+        <p>© 2026 ScamLock. Todos los derechos reservados.</p>
+        <p style="line-height: 1.5; color: #475569;">
+          ScamLock es un software de desarrollo independiente. No es un producto oficial de Discord Inc. ni está afiliado, respaldado ni asociado con Discord Inc. Discord es una marca comercial registrada de Discord Inc.
+        </p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Language Switch Script (Client-Side, zero dependency) -->
+  <script>
+    (function() {
+      var currentLang = 'es';
+      var btn = document.getElementById('pageLangBtn');
+      var label = document.getElementById('pageLangLabel');
+      var contentEs = document.getElementById('contentEs');
+      var contentEn = document.getElementById('contentEn');
+      var backLabel = document.getElementById('backHomeLabel');
+
+      if (btn && contentEs && contentEn) {
+        btn.addEventListener('click', function() {
+          if (currentLang === 'es') {
+            currentLang = 'en';
+            contentEs.classList.add('hidden');
+            contentEn.classList.remove('hidden');
+            label.textContent = 'Cambiar a Español';
+            if (backLabel) backLabel.textContent = 'Return to Homepage';
+            document.documentElement.lang = 'en';
+          } else {
+            currentLang = 'es';
+            contentEn.classList.add('hidden');
+            contentEs.classList.remove('hidden');
+            label.textContent = 'Cambiar a English';
+            if (backLabel) backLabel.textContent = 'Volver al sitio oficial';
+            document.documentElement.lang = 'es';
+          }
+        });
+      }
+    })();
+  </script>
+</body>
+</html>
